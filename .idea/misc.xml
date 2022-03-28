@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/PJ/VutApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.22" />
+        <entry key="..\:/Users/PJ/VutApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.183" />
+        <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/activity_about_us.xml" value="0.1" />
+        <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/activity_bus.xml" value="0.1524822695035461" />
+        <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/activity_calender.xml" value="0.1" />
+        <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/activity_contacts.xml" value="0.1" />
+        <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/activity_emberfield.xml" value="0.1" />
+        <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/activity_events.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/activity_granada_court.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/activity_learning.xml" value="0.1" />
+        <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/activity_maps.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/activity_marchel_court.xml" value="0.29739583333333336" />
+        <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/activity_news.xml" value="0.29739583333333336" />
+        <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/activity_park_village.xml" value="0.29739583333333336" />
+        <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/activity_tough_bar.xml" value="0.29739583333333336" />
+        <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/content_about_us.xml" value="0.18761384335154827" />
+        <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/content_bus.xml" value="0.29739583333333336" />
+        <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/content_calender.xml" value="0.2838541666666667" />
+        <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/content_contacts.xml" value="0.26856884057971014" />
+        <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/content_emberfield.xml" value="0.26856884057971014" />
+        <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/content_events.xml" value="0.18206521739130435" />
+        <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/content_granada_court.xml" value="0.1" />
+        <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/content_learning.xml" value="0.18206521739130435" />
+        <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/content_main.xml" value="0.26856884057971014" />
+        <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/content_maps.xml" value="0.26856884057971014" />
+        <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/content_marchel_court.xml" value="0.26856884057971014" />
+        <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/content_news.xml" value="0.26856884057971014" />
+        <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/content_park_village.xml" value="0.26856884057971014" />
+        <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/content_social.xml" value="0.26856884057971014" />
+        <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/content_tough_bar.xml" value="0.26856884057971014" />
+        <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/dialog.xml" value="0.26856884057971014" />
+        <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/grid_single.xml" value="0.1" />
+        <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/layout.xml" value="0.1" />
+        <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/learning_list.xml" value="0.26856884057971014" />
+        <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/social_list.xml" value="0.26856884057971014" />
+        <entry key="..\:/Users/PJ/VutApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1415" />
+        <entry key="..\:/Users/PJ/VutApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1415" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
