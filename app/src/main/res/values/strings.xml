@@ -63,6 +63,10 @@
     <string name="busWeekendTimes2">13:00</string>
     <string name="socialListTextView">TextView</string>
     <string name="todo">TODO</string>
+    <string name="contact_background">Contact Background</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="welcome_page">Welcome Page</string>
+    <string name="we_welcome_you_again">We Welcome You Again</string>
 
 
 </resources>

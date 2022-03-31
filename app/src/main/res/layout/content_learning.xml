@@ -8,7 +8,10 @@
     android:orientation="vertical"
     tools:context="com.peisocodes.vutapp.learning"
     tools:showIn="@layout/activity_learning"
-    android:weightSum="1">
+    android:weightSum="1"
+    android:background="@drawable/untitled"
+    android:backgroundTint="#80FFFFFF"
+    android:backgroundTintMode="src_over">
 
 
     <ListView

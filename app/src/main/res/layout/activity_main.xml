@@ -5,8 +5,31 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/untitled"
+    android:backgroundTint="#80FFFFFF"
+    android:backgroundTintMode="src_over">
 
+
+
+    <ImageView
+        android:paddingTop="0dp"
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:contentDescription="@string/welcome_page"
+        app:srcCompat="@drawable/welcome_background"
+        android:alpha="0.8"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/we_welcome_you_again"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="2dp"/>
 
     <GridView
         android:layout_width="match_parent"
@@ -15,8 +38,7 @@
         android:layout_margin="20dp"
         android:numColumns="3"
         android:id="@+id/grid">
-        <!--android:background="@drawable/logo2"
-        android:alpha="0.5"-->
+
     </GridView>
 
 </LinearLayout>

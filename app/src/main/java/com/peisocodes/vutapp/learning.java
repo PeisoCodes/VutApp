@@ -13,7 +13,7 @@ public class learning extends AppCompatActivity {
 
     String[] learning_itemname= {
             "ITS(Enabler)",
-            "MyVUT",
+            "VUT Research",
             "Moodle",
             "Netacad",
             "Blackboard"
@@ -21,8 +21,8 @@ public class learning extends AppCompatActivity {
 
     final String[] UrlLinks = {
             "https://ienablerprod.vut.ac.za/pls/prodi41/w99pkg.mi_login",
-            "http://myvut.vut.ac.za/portal",
-            "http://moodlevut.vut.ac.za/",
+            "https://www.vut-research.ac.za/",
+            "https://moodlevut.vut.ac.za/",
             "https://www.netacad.com/",
             "https://vut.blackboard.com/"
     };
@@ -30,8 +30,6 @@ public class learning extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_learning);
-
-
 
 
         final learningList adapter = new learningList(this,learning_itemname);

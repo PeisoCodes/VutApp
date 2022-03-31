@@ -1,12 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="todo">TODO</string>
-    <string name="textview">TextView</string>
-    <string name="bttn" />
-    <string name="vaal_university_of_technology">Vaal University of Technology</string>
-    <string name="established_in_2004_as_vaal_university_of_technology_vut_it_originated_as_a_college_of_advanced_technical_education_1966_1979_and_was_later_known_as_vaal_triangle_technikon_1979_2003_n_n_as_part_of_the_transformation_of_the_higher_education_sector_in_2004_institutional_restructuring_reduced_through_mergers_and_incorporations_the_number_of_institutions_of_higher_education_and_training_in_south_africa_from_36_to_23_vaal_university_of_technology_was_subsequently_established_under_the_higher_education_act_no_101_of_1997_n_n_based_in_southern_gauteng_vaal_university_of_technology_draws_students_from_all_regions_of_the_country_as_well_as_25_other_countries_it_is_one_of_the_largest_universities_of_technology_in_south_africa_with_an_annual_enrolment_of_about_21_000_students_the_university_is_well_positioned_to_make_a_substantial_contribution_to_the_development_of_human_capital_in_the_southern_gauteng_region_the_country_and_the_continent_n_n_it_has_four_faculties_n_faculty_of_applied_and_computer_sciences_n_faculty_of_engineering_and_technology_n_faculty_of_human_sciences_n_faculty_of_management_sciences_n_n_vut_has_four_campuses_the_vanderbijlpark_campus_is_situated_on_4_6_hectares_of_land_with_a_state_of_the_art_library_lecture_halls_laboratories_auditoriums_and_offices_three_satellite_campuses_extend_the_academic_business_of_the_university_into_secunda_in_mpumalanga_and_ekurhuleni_in_daveyton_also_in_gauteng_and_upington_in_the_northern_cape_southern_gauteng_science_and_technology_park_is_an_extension_of_the_main_campus_which_is_located_in_sebokeng_this_is_the_seat_of_southern_gauteng_innovation_hub_vut_is_located_in_a_highly_industrialised_area_alongside_major_petro_chemical_steel_engineering_telecommunications_and_manufacturing_companies_it_is_also_surrounded_by_communities_with_poor_economic_backgrounds">Established in 2004 as Vaal University of Technology (VUT), it originated as a College of Advanced Technical Education (1966-1979) and was later known as Vaal Triangle Technikon (1979-2003).\n\n As part of the transformation of the higher education sector in 2004, institutional restructuring reduced, through mergers and incorporations, the number of institutions of higher education and training in South Africa from 36 to 23. Vaal University of Technology was subsequently established under the Higher Education Act, No 101 of 1997.\n\n Based in southern Gauteng, Vaal University of Technology draws students from all regions of the country as well as 25 other countries. It is one of the largest universities of technology in South Africa, with an annual enrolment of about 21 000 students. The University is well positioned to make a substantial contribution to the development of human capital in the southern Gauteng region, the country and the continent.\n\n It has four faculties:\n • Faculty of Applied and Computer Sciences\n • Faculty of Engineering and Technology\n • Faculty of Human Sciences\n • Faculty of Management Sciences.\n\n VUT has four campuses. The Vanderbijlpark Campus is situated on 4.6 hectares of land with a state-of-the-art Library, lecture halls, laboratories, auditoriums and offices. Three satellite campuses extend the academic business of the university into Secunda in Mpumalanga and Ekurhuleni in Daveyton (also in Gauteng) and Upington, in the Northern Cape. Southern Gauteng Science and Technology Park is an extension of the main campus which is located in Sebokeng. This is the seat of Southern Gauteng Innovation Hub. VUT is located in a highly industrialised area alongside major petro-chemical, steel, engineering, telecommunications and manufacturing companies. It is also surrounded by communities with poor economic backgrounds.</string>
+    <string name="app_name">VUTapp</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_updates">Check Updates</string>
+
+    <string name="action_map">Campus Map</string>
+    <string name="action_calender">Academic Calender</string>
+    <string name="action_bus">Bus Hours</string>
+    <string name="action_news">Campus News</string>
+    <string name="action_suggestions">Suggestions</string>
+    <string name="action_social">Social Media</string>
+    <string name="action_sites">Learning Sites</string>
+    <string name="action_events">Events</string>
+    <string name="action_contacts">Contacts</string>
+
+    <string name="bttn">bttn</string>
+
+    <string name="title_activity_calender">Academic Calender</string>
+    <string name="title_activity_bus">Bus Hours</string>
+    <string name="title_activity_contacts">Contacts</string>
+    <string name="title_activity_events">Events</string>
+    <string name="title_activity_learning">Learning Sites</string>
+    <string name="title_activity_news">Campus News</string>
+    <string name="title_activity_social">Social Media</string>
+    <string name="title_activity_suggestion">Suggestion</string>
+    <string name="title_activity_maps">Campus Map</string>
+    <string name="title_activity_about_us">About Us</string>
+
+    <string name="Res1">Park Village</string>
+    <string name="Res2">Tough Bar</string>
+    <string name="Res3">EmberField</string>
+    <string name="Res4">Marchel Court</string>
+    <string name="Res5">Granada Court</string>
+
+    <string name="contact1">Campuses</string>
+    <string name="contact2">International Students</string>
+    <string name="contact3">Faculty:Human Sciences</string>
+    <string name="contact4">Faculty:Applied and Computer Sciences</string>
+    <string name="contact5">Faculty:Management Sciences</string>
+    <string name="contact6">Faculty:Engineering and Technology</string>
+
+    <string name="title_activity_park_village">Park Village</string>
+    <string name="title_activity_tough_bar">Tough Bar</string>
+    <string name="title_activity_emberfield">Emberfield</string>
+    <string name="title_activity_marchel_court">Marchel Court</string>
+    <string name="title_activity_granada_court">Granada Court</string>
+    <string name="heading">Vaal University of Technology</string>
+    <string name="paragraph1">Established in 2004 as Vaal University of Technology (VUT), it originated as a College of Advanced Technical Education (1966-1979) and was later known as Vaal Triangle Technikon (1979-2003).\n\n As part of the transformation of the higher education sector in 2004, institutional restructuring reduced, through mergers and incorporations, the number of institutions of higher education and training in South Africa from 36 to 23. Vaal University of Technology was subsequently established under the Higher Education Act, No 101 of 1997.\n\n Based in southern Gauteng, Vaal University of Technology draws students from all regions of the country as well as 25 other countries. It is one of the largest universities of technology in South Africa, with an annual enrolment of about 21 000 students. The University is well positioned to make a substantial contribution to the development of human capital in the southern Gauteng region, the country and the continent.\n\n It has four faculties:\n • Faculty of Applied and Computer Sciences\n • Faculty of Engineering and Technology\n • Faculty of Human Sciences\n • Faculty of Management Sciences.\n\n VUT has four campuses. The Vanderbijlpark Campus is situated on 4.6 hectares of land with a state-of-the-art Library, lecture halls, laboratories, auditoriums and offices. Three satellite campuses extend the academic business of the university into Secunda in Mpumalanga and Ekurhuleni in Daveyton (also in Gauteng) and Upington, in the Northern Cape. Southern Gauteng Science and Technology Park is an extension of the main campus which is located in Sebokeng. This is the seat of Southern Gauteng Innovation Hub. VUT is located in a highly industrialised area alongside major petro-chemical, steel, engineering, telecommunications and manufacturing companies. It is also surrounded by communities with poor economic backgrounds.</string>
     <string name="VisionMissionValues">Vision, Mission and Values</string>
     <string name="Paragraph2">Vision\n To be a university that leads in innovative knowledge and quality technology education.\n\n Mission\n Our mission is to produce employable graduates who can make an impact in society by:\n Adopting cutting edge technology and teaching methods, Creating a scholarly environment conducive for knowledge creation, learning and innovation; and, Developing a Programme Qualification Mix (PQM) that meets the needs of society in Africa and beyond.\n\n Values\n Excellence\n Creativity\n Mutual Respect\n Collegiality\n Honesty and Integrity\n Tolerance\n Diversity\n\n Motto: “Your World to a better future!”\n\n VUT’s Strategic Objectives\n The VUT Corporate Strategy has strategic objectives:\n Create an enabling environment for effective strategic leadership\n Build a Programme Qualification Mix (PQM) and institutional curriculum of excellence\n Enhance financial viability of VUT\n Improve the corporate image of VUT\n Improve student access and success\n Optimise teaching and learning</string>
+    <string name="disclaimer">Developed by: Peiso Pee Jay Simone</string>
+    <string name="busTimes">07:20\n08:20\n09:20\n10:20\n11:40\n13:40\n15:40\n18:00\n</string>
+    <string name="busDates">MON - FRI</string>
+    <string name="busDestination">To Campus</string>
+    <string name="busLocation">From Campus</string>
     <string name="busTimes2">08:40\n09:40\n11:15\n13:15\n15:15\n17:15\n19:40\n20:40\n</string>
     <string name="busWeekend">SAT and SUN</string>
     <string name="busDestination2">To Campus</string>
@@ -14,4 +63,11 @@
     <string name="busLocation2">From Campus</string>
     <string name="busWeekendTimes2">13:00</string>
     <string name="socialListTextView">TextView</string>
+    <string name="todo">TODO</string>
+    <string name="contact_background">Contact Background</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="welcome_page">Welcome Page</string>
+    <string name="we_welcome_you_again">We Welcome You Again</string>
+
+
 </resources>

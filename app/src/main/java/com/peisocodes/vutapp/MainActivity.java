@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
+import android.widget.LinearLayout;
 import android.widget.ListAdapter;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -37,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
             R.drawable.suggestion
 
     };
-    private Class [] activites =
+    private final Class [] activities =
             {
                     news.class,
                     calender.class,
@@ -55,6 +56,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+
+
+
         customGrid adapter = new customGrid(MainActivity.this, menuText,imageId);
 
         GridView grid;
@@ -65,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Intent intent;
-                intent = new Intent(view.getContext(),activites[position]);
+                intent = new Intent(view.getContext(),activities[position]);
                 view.getContext().startActivity(intent);
             }
         });

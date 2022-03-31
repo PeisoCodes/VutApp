@@ -5,7 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:showIn="@layout/content_events">
+    tools:showIn="@layout/content_events"
+    android:background="@drawable/untitled"
+    android:backgroundTint="#80FFFFFF"
+    android:backgroundTintMode="src_over">
 
     <WebView
         android:layout_width="match_parent"

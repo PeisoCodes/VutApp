@@ -59,5 +59,8 @@
         <activity
             android:name=".granadaCourt"
             android:label="@string/title_activity_granada_court"/>
+        <activity
+            android:name=".contacts"
+            android:label="@string/title_activity_contacts" />
     </application>
 </manifest>

@@ -7,7 +7,10 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.peisocodes.vutapp.emberfield"
-    tools:showIn="@layout/activity_emberfield">
+    tools:showIn="@layout/activity_emberfield"
+    android:background="@drawable/untitled"
+    android:backgroundTint="#80FFFFFF"
+    android:backgroundTintMode="src_over">
 
 
     <LinearLayout

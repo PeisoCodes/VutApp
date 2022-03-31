@@ -38,6 +38,7 @@ public class news extends AppCompatActivity {
             newsWebView.getSettings().setJavaScriptEnabled(true);
             newsWebView.getSettings().setCacheMode(WebSettings.LOAD_CACHE_ELSE_NETWORK);
             newsWebView.loadUrl(url);
+
         }
 
         else {

@@ -7,7 +7,10 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.peisocodes.vutapp.toughBar"
-    tools:showIn="@layout/activity_tough_bar">
+    tools:showIn="@layout/activity_tough_bar"
+    android:background="@drawable/untitled"
+    android:backgroundTint="#80FFFFFF"
+    android:backgroundTintMode="src_over">
 
 
     <LinearLayout
@@ -22,20 +25,23 @@
             android:text="@string/busDates"
             android:textSize="20sp"
             android:layout_gravity="top|center"
-            android:paddingBottom="5dp"/>
+            android:paddingBottom="5dp"
+            android:textColor="@color/black"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/busDestination"
             android:textSize="15sp"
-            android:paddingBottom="2dp"/>
+            android:paddingBottom="2dp"
+            android:textColor="@color/black"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/busTimes"
             android:textSize="13sp"
-            android:paddingBottom="5dp"/>
+            android:paddingBottom="5dp"
+            android:textColor="@color/black"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -43,14 +49,16 @@
             android:text="@string/busLocation"
             android:textSize="15sp"
             android:paddingBottom="2dp"
-            android:layout_gravity="end"/>
+            android:layout_gravity="end"
+            android:textColor="@color/black"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/busTimes2"
             android:textSize="13sp"
             android:paddingBottom="5dp"
-            android:layout_gravity="end"/>
+            android:layout_gravity="end"
+            android:textColor="@color/black"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -58,20 +66,23 @@
             android:text="@string/busWeekend"
             android:textSize="20sp"
             android:layout_gravity="top|center"
-            android:paddingBottom="5dp"/>
+            android:paddingBottom="5dp"
+            android:textColor="@color/black"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/busDestination2"
             android:textSize="15sp"
-            android:paddingBottom="2dp"/>
+            android:paddingBottom="2dp"
+            android:textColor="@color/black"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/busWeekendTimes"
             android:textSize="13sp"
-            android:paddingBottom="5dp"/>
+            android:paddingBottom="5dp"
+            android:textColor="@color/black"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -79,14 +90,16 @@
             android:text="@string/busLocation2"
             android:textSize="15sp"
             android:paddingBottom="2dp"
-            android:layout_gravity="end"/>
+            android:layout_gravity="end"
+            android:textColor="@color/black"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/busWeekendTimes2"
             android:textSize="13sp"
             android:paddingBottom="5dp"
-            android:layout_gravity="end"/>
+            android:layout_gravity="end"
+            android:textColor="@color/black"/>
     </LinearLayout>
 </ScrollView>
 
