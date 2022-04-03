@@ -10,6 +10,11 @@ import android.widget.ListAdapter;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.denzcoskun.imageslider.ImageSlider;
+import com.denzcoskun.imageslider.models.SlideModel;
+
+import java.util.ArrayList;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -55,6 +60,22 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        ImageSlider imageSlider = findViewById(R.id.image_slider);
+
+        ArrayList<SlideModel> images = new ArrayList<>();
+
+        images.add(new SlideModel(R.drawable.maingate,null));
+        images.add(new SlideModel(R.drawable.gw,null));
+        images.add(new SlideModel(R.drawable.eng,null));
+        images.add(new SlideModel(R.drawable.office,null));
+        images.add(new SlideModel(R.drawable.ampi1,null));
+        images.add(new SlideModel(R.drawable.adm,null));
+        images.add(new SlideModel(R.drawable.lib,null));
+        images.add(new SlideModel(R.drawable.pass,null));
+        images.add(new SlideModel(R.drawable.office2, null));
+
+        imageSlider.setImageList(images);
 
 
 
