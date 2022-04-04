@@ -4,24 +4,22 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:padding="10dp">
+    android:padding="20dp">
 
     <ImageView
         android:id="@+id/grid_image"
-        android:layout_width="50dp"
+        android:layout_width="wrap_content"
         android:layout_gravity="center"
-        android:layout_height="50dp"
+        android:layout_height="wrap_content"
         android:contentDescription="@string/bttn" />
 
     <TextView
         android:id="@+id/grid_text"
         android:layout_margin="1dp"
-        android:textSize="10sp"
+        android:textSize="15sp"
         android:layout_gravity="center"
+        android:textColor="#c324ff"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="@color/black"/>
-
-
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>

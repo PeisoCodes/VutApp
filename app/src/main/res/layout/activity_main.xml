@@ -6,9 +6,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity"
-    android:background="@drawable/untitled"
-    android:backgroundTint="#90000000"
-    android:backgroundTintMode="src_over">
+    android:background="@color/white"
+>
 
 
 
@@ -23,7 +22,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        android:backgroundTint="#80ffffff"
+        android:backgroundTintMode="src_atop">
 
 
     </com.denzcoskun.imageslider.ImageSlider>
@@ -31,20 +32,30 @@
     <TextView
         android:id="@+id/textView3"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="44dp"
+        android:layout_marginBottom="0dp"
         android:text="@string/we_welcome_you_again"
         android:textAlignment="center"
-        android:textSize="35sp"
-        android:textColor="@color/black"
-        android:layout_marginBottom="2dp"/>
+        android:textColor="#1c6cff"
+        android:textSize="35sp" />
+
+    <ImageView
+        android:id="@+id/welcome_background"
+        android:layout_width="match_parent"
+        android:layout_height="22dp"
+        android:contentDescription="@string/welcome_background"
+        android:padding="0dp"
+        android:src="@drawable/welcome_background">
+
+    </ImageView>
 
     <GridView
+        android:id="@+id/grid"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
-        android:layout_margin="20dp"
         android:numColumns="3"
-        android:id="@+id/grid">
+        android:background="@drawable/grid_background">
 
     </GridView>
 

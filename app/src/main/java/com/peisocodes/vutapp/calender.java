@@ -69,6 +69,9 @@ public class calender extends AppCompatActivity {
             view.loadUrl("javascript:document.getElementById('Action_bar').style.display='none'; void(0);");
             view.loadUrl("javascript:document.getElementById('Header_wrapper').style.display='none'; void(0);");
             view.loadUrl("javascript:document.getElementById('Footer').style.display='none'; void(0);");
+            view.loadUrl("javascript:document.getElementById(class = \"vc_row wpb_row vc_row-fluid vc_custom_1632304754030 vc_row-has-fill ult-vc-hide-row\").style.display='none'; void(0);");
+            view.loadUrl("javascript:document.getElementById(class=\"sfm-navicon-button x sf_label_default\").style.display='none'; void(0);");
+            view.loadUrl("javascript:document.getElementById(class=\"wpb_column vc_column_container vc_col-sm-3\").style.display='none'; void(0);");
             view.loadUrl("javascript:document.getElementById('fsml_ff').style.display='none'; void(0);");
             view.loadUrl("javascript:document.getElementById('real-accessability').style.display='none'; void(0);");
 

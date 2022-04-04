@@ -18,36 +18,36 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
-
     String[] menuText = {
-            "Campus News",
-            "Academic Calender",
+            "News",
+            "Calender",
             "Events",
+            "Publications",
             "Bus Hours",
             "Campus Map",
             "Social Media",
             "Academic Sites",
             "Contact Us",
             "About Us"
-
     };
     int[] imageId = {
             R.drawable.news,
             R.drawable.acad_cal,
             R.drawable.events,
+            R.drawable.publication,
             R.drawable.bus,
             R.drawable.map,
             R.drawable.social,
             R.drawable.learning,
             R.drawable.contact,
-            R.drawable.suggestion
-
+            R.drawable.about
     };
     private final Class [] activities =
             {
                     news.class,
                     calender.class,
                     events.class,
+                    publication.class,
                     bus.class,
                     maps.class,
                     social.class,
@@ -62,7 +62,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         ImageSlider imageSlider = findViewById(R.id.image_slider);
-
         ArrayList<SlideModel> images = new ArrayList<>();
 
         images.add(new SlideModel(R.drawable.maingate,null));
@@ -77,12 +76,7 @@ public class MainActivity extends AppCompatActivity {
 
         imageSlider.setImageList(images);
 
-
-
-
-
         customGrid adapter = new customGrid(MainActivity.this, menuText,imageId);
-
         GridView grid;
         grid =(GridView) findViewById(R.id.grid);
         grid.setAdapter((ListAdapter) adapter);

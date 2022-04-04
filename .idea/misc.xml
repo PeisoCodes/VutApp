@@ -6,28 +6,30 @@
         <entry key="..\:/Users/PJ/VutApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.22" />
         <entry key="..\:/Users/PJ/VutApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.183" />
         <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/activity_about_us.xml" value="0.1" />
-        <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/activity_bus.xml" value="0.1524822695035461" />
+        <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/activity_bus.xml" value="0.21296296296296297" />
         <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/activity_calender.xml" value="0.1" />
         <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/activity_contacts.xml" value="0.19184430027803523" />
         <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/activity_emberfield.xml" value="0.1" />
-        <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/activity_events.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/activity_events.xml" value="0.1" />
         <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/activity_granada_court.xml" value="0.17831813576494426" />
         <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/activity_learning.xml" value="0.1" />
-        <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/activity_main.xml" value="0.23981481481481481" />
         <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/activity_maps.xml" value="0.18802083333333333" />
         <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/activity_marchel_court.xml" value="0.29739583333333336" />
         <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/activity_news.xml" value="0.29739583333333336" />
         <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/activity_park_village.xml" value="0.29739583333333336" />
+        <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/activity_publication.xml" value="0.2838541666666667" />
         <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/activity_tough_bar.xml" value="0.29739583333333336" />
         <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/bottom_sheet_background.xml" value="0.26811594202898553" />
         <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/bottom_sheet_layout.xml" value="0.26811594202898553" />
-        <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/content_about_us.xml" value="0.18761384335154827" />
+        <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/content_about_us.xml" value="0.1" />
         <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/content_bus.xml" value="0.19314641744548286" />
         <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/content_calender.xml" value="0.2838541666666667" />
         <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/content_contacts.xml" value="0.23933649289099526" />
         <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/content_emberfield.xml" value="0.26856884057971014" />
         <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/content_events.xml" value="0.18206521739130435" />
         <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/content_granada_court.xml" value="0.1" />
+        <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/content_layout.xml" value="0.2838541666666667" />
         <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/content_learning.xml" value="0.18206521739130435" />
         <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/content_main.xml" value="0.26856884057971014" />
         <entry key="..\:/Users/PJ/VutApp/app/src/main/res/layout/content_maps.xml" value="0.26856884057971014" />

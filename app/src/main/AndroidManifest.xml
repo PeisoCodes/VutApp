@@ -45,22 +45,10 @@
             android:label="@string/title_activity_news" />
 
         <activity
-            android:name=".parkVillage"
-            android:label="@string/title_activity_park_village" />
-        <activity
-            android:name=".toughBar"
-            android:label="@string/title_activity_tough_bar" />
-        <activity
-            android:name=".emberfield"
-            android:label="@string/title_activity_emberfield" />
-        <activity
-            android:name=".marchelCourt"
-            android:label="@string/title_activity_marchel_court" />
-        <activity
-            android:name=".granadaCourt"
-            android:label="@string/title_activity_granada_court"/>
-        <activity
             android:name=".contacts"
             android:label="@string/title_activity_contacts" />
+        <activity
+            android:name=".publication"
+            android:label="@string/title_activity_publication" />
     </application>
 </manifest>

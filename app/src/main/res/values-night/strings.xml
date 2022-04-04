@@ -68,6 +68,7 @@
     <string name="contact_us">Contact Us</string>
     <string name="welcome_page">Welcome Page</string>
     <string name="we_welcome_you_again">We Welcome You Again</string>
+    <string name="title_activity_publication">Publication</string>
 
 
 </resources>
