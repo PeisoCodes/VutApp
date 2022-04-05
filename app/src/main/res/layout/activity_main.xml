@@ -6,11 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity"
-    android:background="@color/white"
->
-
-
-
+    android:background="@color/white">
 
     <com.denzcoskun.imageslider.ImageSlider
         android:id="@+id/image_slider"
@@ -25,8 +21,6 @@
         app:layout_constraintTop_toTopOf="parent"
         android:backgroundTint="#80ffffff"
         android:backgroundTintMode="src_atop">
-
-
     </com.denzcoskun.imageslider.ImageSlider>
 
     <TextView
@@ -45,9 +39,7 @@
         android:layout_height="22dp"
         android:contentDescription="@string/welcome_background"
         android:padding="0dp"
-        android:src="@drawable/welcome_background">
-
-    </ImageView>
+        android:src="@drawable/welcome_background"/>
 
     <GridView
         android:id="@+id/grid"
@@ -55,8 +47,6 @@
         android:layout_height="match_parent"
         android:gravity="center"
         android:numColumns="3"
-        android:background="@drawable/grid_background">
-
-    </GridView>
+        android:background="@drawable/grid_background"/>
 
 </LinearLayout>

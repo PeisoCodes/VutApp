@@ -31,7 +31,6 @@ public class learning extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_learning);
 
-
         final learningList adapter = new learningList(this,learning_itemname);
         final ListView learning_list = (ListView) findViewById(R.id.learning_list);
         learning_list.setAdapter(adapter);

@@ -59,7 +59,6 @@ public class events extends AppCompatActivity {
             super.onPageStarted(view, url, favicon);
             progressDialog = new ProgressDialog(events.this);
             progressDialog.setMessage("Please Wait...");
-            // progressDialog.setCancelable(false);
             progressDialog.show();
             Toast.makeText(getApplicationContext(),"Loading...",Toast.LENGTH_LONG).show();
         }
@@ -79,7 +78,6 @@ public class events extends AppCompatActivity {
             view.loadUrl("javascript:document.getElementById('fsml_ff').style.display='none'; void(0);");
             view.loadUrl("javascript:document.getElementById('real-accessability').style.display='none'; void(0);");
 
-            //super.onPageFinished(view, url);
             if(progressDialog!=null){
                 progressDialog.dismiss();
             }

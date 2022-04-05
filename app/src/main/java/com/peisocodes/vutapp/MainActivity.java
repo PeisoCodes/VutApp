@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
-import android.widget.LinearLayout;
 import android.widget.ListAdapter;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -26,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
             "Bus Hours",
             "Campus Map",
             "Social Media",
-            "Academic Sites",
+            "Academic",
             "Contact Us",
             "About Us"
     };
@@ -42,8 +41,7 @@ public class MainActivity extends AppCompatActivity {
             R.drawable.contact,
             R.drawable.about
     };
-    private final Class [] activities =
-            {
+    private final Class [] activities = {
                     news.class,
                     calender.class,
                     events.class,
@@ -54,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
                     learning.class,
                     contacts.class,
                     aboutUs.class
-            };
+    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -72,7 +70,6 @@ public class MainActivity extends AppCompatActivity {
         images.add(new SlideModel(R.drawable.adm,null));
         images.add(new SlideModel(R.drawable.lib,null));
         images.add(new SlideModel(R.drawable.pass,null));
-        images.add(new SlideModel(R.drawable.office2, null));
 
         imageSlider.setImageList(images);
 

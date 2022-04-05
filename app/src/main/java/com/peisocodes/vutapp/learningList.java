@@ -15,7 +15,7 @@ public class  learningList extends ArrayAdapter<String> {
     private final String[]Item_Name;
 
     public learningList(Activity context,String[]Item_Name){
-        super(context, R.layout.social_list,Item_Name);
+        super(context, R.layout.learning_list,Item_Name);
 
         this.context = context;
         this.Item_Name=Item_Name;
@@ -25,14 +25,12 @@ public class  learningList extends ArrayAdapter<String> {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         LayoutInflater inflater = context.getLayoutInflater();
-        View rowView = inflater.inflate(R.layout.social_list, null, true);
+        View rowView = inflater.inflate(R.layout.learning_list, null, true);
 
         TextView txtTitle = (TextView) rowView.findViewById(R.id.item);
-
         TextView extratxt = (TextView) rowView.findViewById(R.id.textView);
 
         txtTitle.setText(Item_Name[position]);
-
         extratxt.setText("Connect to " + Item_Name[position]);
 
         return rowView;

@@ -11,7 +11,7 @@ import android.widget.TextView;
 
 public class customGrid extends BaseAdapter {
 
-    private Context mContext;
+    private final Context mContext;
     private final String[] menuText;
     private final int[]ImageId;
 
