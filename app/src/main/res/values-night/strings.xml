@@ -1,20 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">VUTapp</string>
-
-    <string name="action_settings">Settings</string>
-    <string name="action_refresh">Refresh</string>
-    <string name="action_updates">Check Updates</string>
-
-    <string name="action_map">Campus Map</string>
-    <string name="action_calender">Academic Calender</string>
-    <string name="action_bus">Bus Hours</string>
-    <string name="action_news">Campus News</string>
-    <string name="action_suggestions">Suggestions</string>
-    <string name="action_social">Social Media</string>
-    <string name="action_sites">Learning Sites</string>
-    <string name="action_events">Events</string>
-    <string name="action_contacts">Contacts</string>
 
     <string name="bttn">bttn</string>
 
@@ -28,12 +13,8 @@
     <string name="title_activity_suggestion">Suggestion</string>
     <string name="title_activity_maps">Campus Map</string>
     <string name="title_activity_about_us">About Us</string>
+    <string name="title_activity_communications">Communications</string>
 
-    <string name="Res1">Park Village</string>
-    <string name="Res2">Tough Bar</string>
-    <string name="Res3">EmberField</string>
-    <string name="Res4">Marchel Court</string>
-    <string name="Res5">Granada Court</string>
 
     <string name="contact1">Campuses</string>
     <string name="contact2">International Students</string>
@@ -42,16 +23,11 @@
     <string name="contact5">Faculty:Management Sciences</string>
     <string name="contact6">Faculty:Engineering and Technology</string>
 
-    <string name="title_activity_park_village">Park Village</string>
-    <string name="title_activity_tough_bar">Tough Bar</string>
-    <string name="title_activity_emberfield">Emberfield</string>
-    <string name="title_activity_marchel_court">Marchel Court</string>
-    <string name="title_activity_granada_court">Granada Court</string>
     <string name="heading">Vaal University of Technology</string>
     <string name="paragraph1">Established in 2004 as Vaal University of Technology (VUT), it originated as a College of Advanced Technical Education (1966-1979) and was later known as Vaal Triangle Technikon (1979-2003).\n\n As part of the transformation of the higher education sector in 2004, institutional restructuring reduced, through mergers and incorporations, the number of institutions of higher education and training in South Africa from 36 to 23. Vaal University of Technology was subsequently established under the Higher Education Act, No 101 of 1997.\n\n Based in southern Gauteng, Vaal University of Technology draws students from all regions of the country as well as 25 other countries. It is one of the largest universities of technology in South Africa, with an annual enrolment of about 21 000 students. The University is well positioned to make a substantial contribution to the development of human capital in the southern Gauteng region, the country and the continent.\n\n It has four faculties:\n • Faculty of Applied and Computer Sciences\n • Faculty of Engineering and Technology\n • Faculty of Human Sciences\n • Faculty of Management Sciences.\n\n VUT has four campuses. The Vanderbijlpark Campus is situated on 4.6 hectares of land with a state-of-the-art Library, lecture halls, laboratories, auditoriums and offices. Three satellite campuses extend the academic business of the university into Secunda in Mpumalanga and Ekurhuleni in Daveyton (also in Gauteng) and Upington, in the Northern Cape. Southern Gauteng Science and Technology Park is an extension of the main campus which is located in Sebokeng. This is the seat of Southern Gauteng Innovation Hub. VUT is located in a highly industrialised area alongside major petro-chemical, steel, engineering, telecommunications and manufacturing companies. It is also surrounded by communities with poor economic backgrounds.</string>
     <string name="VisionMissionValues">Vision, Mission and Values</string>
     <string name="Paragraph2">Vision\n To be a university that leads in innovative knowledge and quality technology education.\n\n Mission\n Our mission is to produce employable graduates who can make an impact in society by:\n Adopting cutting edge technology and teaching methods, Creating a scholarly environment conducive for knowledge creation, learning and innovation; and, Developing a Programme Qualification Mix (PQM) that meets the needs of society in Africa and beyond.\n\n Values\n Excellence\n Creativity\n Mutual Respect\n Collegiality\n Honesty and Integrity\n Tolerance\n Diversity\n\n Motto: “Your World to a better future!”\n\n VUT’s Strategic Objectives\n The VUT Corporate Strategy has strategic objectives:\n Create an enabling environment for effective strategic leadership\n Build a Programme Qualification Mix (PQM) and institutional curriculum of excellence\n Enhance financial viability of VUT\n Improve the corporate image of VUT\n Improve student access and success\n Optimise teaching and learning</string>
-    <string name="disclaimer">Developed by: Peiso Pee Jay Simone</string>
+    <string name="disclaimer">Developed by: Peiso Simone</string>
     <string name="busTimes">07:20\n08:20\n09:20\n10:20\n11:40\n13:40\n15:40\n18:00\n</string>
     <string name="busDates">MON - FRI</string>
     <string name="busDestination">To Campus</string>
@@ -68,9 +44,9 @@
     <string name="contact_us">Contact Us</string>
     <string name="welcome_page">Welcome Page</string>
     <string name="we_welcome_you_again">We Welcome You Again</string>
+    <string name="welcome_background">welcome_background</string>
     <string name="title_activity_publication">Publication</string>
     <string name="campuses">CAMPUSES</string>
-    <string name="vanderbijlpark_27_0_16_950_9000_ekhuruleni_27_0_11_929_7400_secunda_27_0_17_631_1990_upington_27_0_54_332_3304">VanderbijlPark : +27(0)16 950 9000\n Ekhuruleni : +27(0)11 929 7400 Secunda : +27(0)17 631 1990 Upington : +27(0)54 332 3304</string>
-
+    <string name="vanderbijlpark_27_0_16_950_9000_ekhuruleni_27_0_11_929_7400_secunda_27_0_17_631_1990_upington_27_0_54_332_3304">VanderbijlPark : +27(0)16 950 9000 \n\n Ekhuruleni : +27(0)11 929 7400 \n\n Secunda : +27(0)17 631 1990 \n\n Upington : +27(0)54 332 3304</string>
 
 </resources>

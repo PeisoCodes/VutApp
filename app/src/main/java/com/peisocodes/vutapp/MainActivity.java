@@ -18,14 +18,15 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity {
 
     String[] menuText = {
-            "News",
+            "Campus News",
             "Calender",
             "Events",
             "Publications",
+            "Communications",
             "Bus Hours",
             "Campus Map",
             "Social Media",
-            "Academic",
+            "Academic Sites",
             "Contact Us",
             "About Us"
     };
@@ -34,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
             R.drawable.acad_cal,
             R.drawable.events,
             R.drawable.publication,
+            R.drawable.communications,
             R.drawable.bus,
             R.drawable.map,
             R.drawable.social,
@@ -46,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
                     calender.class,
                     events.class,
                     publication.class,
+                    communications.class,
                     bus.class,
                     maps.class,
                     social.class,

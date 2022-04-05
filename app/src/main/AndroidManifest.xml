@@ -32,18 +32,15 @@
         <activity
             android:name=".calender"
             android:label="@string/title_activity_calender" />
-
         <activity
             android:name=".events"
             android:label="@string/title_activity_events" />
         <activity
             android:name=".learning"
             android:label="@string/title_activity_learning" />
-
         <activity
             android:name=".news"
             android:label="@string/title_activity_news" />
-
         <activity
             android:name=".contacts"
             android:label="@string/title_activity_contacts" />
@@ -53,5 +50,11 @@
         <activity
             android:name=".social"
             android:label="@string/title_activity_social" />
+        <activity
+            android:name=".communications"
+            android:label="@string/title_activity_communications" />
+        <activity
+            android:name=".maps"
+            android:label="@string/title_activity_maps" />
     </application>
 </manifest>

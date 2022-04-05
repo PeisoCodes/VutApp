@@ -15,8 +15,7 @@
 
     <TextView
         android:id="@+id/grid_text"
-        android:layout_margin="1dp"
-        android:textSize="15sp"
+        android:textSize="12sp"
         android:layout_gravity="center"
         android:textColor="#c324ff"
         android:layout_width="wrap_content"

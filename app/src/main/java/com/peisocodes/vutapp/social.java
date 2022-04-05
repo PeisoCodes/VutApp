@@ -17,6 +17,7 @@ public class social extends AppCompatActivity {
             "LinkedIn",
             "Instagram",
             "YouTube",
+            "Blogger",
             "Website"
     };
 
@@ -26,6 +27,7 @@ public class social extends AppCompatActivity {
             R.drawable.linkedin,
             R.drawable.instagram,
             R.drawable.youtube,
+            R.drawable.blog,
             R.drawable.home
     };
 
@@ -35,6 +37,7 @@ public class social extends AppCompatActivity {
             "https://www.linkedin.com/school/vaal-university-of-technology/",
             "https://www.instagram.com/vaal_university_of_technology/",
             "https://www.youtube.com/c/VutAcZaVUT",
+            "https://www.vut.ac.za/blog/",
             "https://www.vut.ac.za/"
     };
 
