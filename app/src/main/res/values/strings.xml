@@ -69,6 +69,8 @@
     <string name="we_welcome_you_again">We Welcome You Again</string>
     <string name="welcome_background">welcome_background</string>
     <string name="title_activity_publication">Publication</string>
+    <string name="campuses">CAMPUSES</string>
+    <string name="vanderbijlpark_27_0_16_950_9000_ekhuruleni_27_0_11_929_7400_secunda_27_0_17_631_1990_upington_27_0_54_332_3304">VanderbijlPark : +27(0)16 950 9000 \n\n Ekhuruleni : +27(0)11 929 7400 \n\n Secunda : +27(0)17 631 1990 \n\n Upington : +27(0)54 332 3304</string>
 
 
 </resources>
