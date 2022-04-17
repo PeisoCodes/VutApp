@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_contacts"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grid_background"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:fillViewport="true"
+    tools:context="com.peisocodes.vutapp.contacts"
+    tools:showIn="@layout/activity_contacts">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/contact_button3"
+            android:layout_width="179dp"
+            android:layout_height="62dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="22dp"
+            android:layout_marginBottom="44dp"
+            android:text="@string/contact3"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toTopOf="@+id/contact_button5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView5"
+            app:layout_constraintTop_toBottomOf="@+id/contact_button6" />
+
+        <Button
+            android:id="@+id/contact_button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="27dp"
+            android:layout_marginEnd="13dp"
+            android:layout_marginBottom="49dp"
+            android:text="@string/contact1"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toTopOf="@+id/contact_button4"
+            app:layout_constraintEnd_toStartOf="@+id/imageView2"
+            app:layout_constraintStart_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+        <Button
+            android:id="@+id/contact_button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="32dp"
+            android:text="@string/contact2"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toTopOf="@+id/contact_button6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView3"
+            app:layout_constraintTop_toBottomOf="@+id/contact_button4"
+            app:layout_constraintVertical_bias="0.44" />
+
+        <Button
+            android:id="@+id/contact_button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="45dp"
+            android:layout_marginEnd="46dp"
+            android:text="@string/contact6"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3"
+            tools:ignore="DuplicateSpeakableTextCheck" />
+
+        <Button
+            android:id="@+id/contact_button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="59dp"
+            android:layout_marginEnd="59dp"
+            android:text="@string/contact5"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+        <Button
+            android:id="@+id/contact_button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="45dp"
+            android:layout_marginEnd="46dp"
+            android:layout_marginBottom="1dp"
+            android:text="@string/contact4"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toTopOf="@+id/imageView3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="130dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="13dp"
+            android:contentDescription="TODO"
+            app:layout_constraintBottom_toTopOf="@+id/contact_button4"
+            app:layout_constraintEnd_toStartOf="@+id/contact_button1"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4"
+            app:srcCompat="@drawable/pic5" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="13dp"
+            android:contentDescription="TODO"
+            app:layout_constraintBottom_toTopOf="@+id/contact_button4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/contact_button1"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/pic3" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="8dp"
+            android:contentDescription="TODO"
+            app:layout_constraintBottom_toTopOf="@+id/contact_button6"
+            app:layout_constraintEnd_toStartOf="@+id/contact_button2"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/contact_button4"
+            app:srcCompat="@drawable/pic6" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="TODO"
+            app:layout_constraintBottom_toTopOf="@+id/imageView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/welcome_background" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="16dp"
+            android:contentDescription="TODO"
+            app:layout_constraintBottom_toTopOf="@+id/contact_button5"
+            app:layout_constraintEnd_toStartOf="@+id/contact_button3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/contact_button6"
+            app:srcCompat="@drawable/pic7" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
+
+
